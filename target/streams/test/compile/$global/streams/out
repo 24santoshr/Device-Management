@@ -1,5 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/santosh/delphi-registry/src/test/scala/de/upb/cs/swt/delphi/instanceregistry/connection/ServerTest.scala:438:8: value */ is not a member of org.scalatest.Assertion[0m
-[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value */'?[0m
-[0m[[0m[31merror[0m] [0m[0m      }*/[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

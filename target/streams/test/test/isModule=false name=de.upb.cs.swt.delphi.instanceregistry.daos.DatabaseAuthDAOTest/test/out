@@ -1,7 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0m[32mDatabaseAuthDAOTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mThe Auth Dao[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- must be able to add a user with different username[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- must return user with correct id[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- must return all user[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- must return user with correct username[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- must be able to delete user with particular username[0m[0m
