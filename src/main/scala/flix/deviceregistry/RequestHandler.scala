@@ -66,7 +66,7 @@ class RequestHandler(deviceDao: DeviceDAO) extends AppLogging {
   /**
     * Remove a device with id
     *
-    * @param id
+    * @param id takes id of the device to be deleted
     * @return
     */
   def handleRemoveDevice(id: Long): Try[Long] = {
@@ -82,7 +82,7 @@ class RequestHandler(deviceDao: DeviceDAO) extends AppLogging {
   /**
     * Get a device with id
     *
-    * @param id
+    * @param id takes id of the device to be fetched
     * @return
     */
   def getDevice(id: Long): Option[DeviceInformation] = {
