@@ -53,7 +53,7 @@ paths:
             format: int64
             example: 42
   /devices/update:
-    post:
+    put:
       tags:
         - Device Management
       summary: Updates an existing device
