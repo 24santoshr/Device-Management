@@ -15,7 +15,7 @@ import scala.concurrent.ExecutionContext
 import scala.util.{Failure, Success}
 
 /**
-  * Web server configuration for Instance Registry API.
+  * Web server configuration for Device Registry API.
   */
 class Server(handler: RequestHandler) extends HttpApp
   with DeviceJsonSupport
@@ -30,7 +30,6 @@ class Server(handler: RequestHandler) extends HttpApp
     apiRoutes
   }
 
-  // scalastyle:off method.length
 
   //Routes that map http endpoints to methods in this object
   def apiRoutes: server.Route =
