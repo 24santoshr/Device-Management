@@ -1,0 +1,140 @@
+swagger: '2.0'
+info:
+  description: >-
+    The interface of the Device registry, which is responsible for
+    creating and modifying information about devices within the system.
+  version: 1.5.0
+  title: Device Information
+host: 'localhost:9000'
+consumes:
+  - application/json
+produces:
+  - application/json
+basePath: /
+tags:
+  
+  - name: Device Management
+    description: Operations related to the device database of Device-Management
+schemes:
+  - https
+  - http
+paths:
+  /devices/add:
+    post:
+      tags:
+        - Device Management
+      summary: Adds a new device
+      description: >-
+        Adds a new device that is passed in the requests entity. The id of the
+        device will be returned.
+      operationId: addDevice
+      parameters:
+        - in: body
+          name: DeviceInformation
+          description: The device to add
+          required: true
+          schema:
+            type: object
+            required:
+              - deviceName
+              - deviceType
+            properties:
+              deviceName:
+                type: string
+                example: MyDevice
+              deviceType:
+                type: string
+                example: Camera
+      responses:
+        '200':
+          description: 'OK, device has been added, id is returned'
+          schema:
+            type: integer
+            format: int64
+            example: 42
+  /devices/update:
+    post:
+      tags:
+        - Device Management
+      summary: Updates an existing device
+      description: >-
+        Updates an existing device that is passed in the requests entity. The id of the
+        device will be returned.
+      operationId: updateDevice
+      parameters:
+        - in: body
+          name: DeviceInformation
+          description: The device to to be updated
+          required: true
+          schema:
+            type: object
+            required:
+              - deviceId
+              - deviceName
+              - deviceType
+            properties:
+              deviceId:
+                type: integer
+              deviceName:
+                type: string
+                example: MyDevice
+              deviceType:
+                type: string
+                example: Camera
+      responses:
+        '200':
+          description: 'OK, device has been added, id is returned'
+          schema:
+            type: integer
+            format: int64
+            example: 42          
+  /devices:
+    get:
+      tags:
+        - Device Management
+      summary: Gets a list of all created devices
+      description: >-
+        Returns a list of all devices.
+      operationId: allDevices
+      responses:
+        '200':
+          description: "OK, list of devices is being returned"
+  /devices/{Id}:
+    get:
+      tags:
+        - Device Management
+      summary: Gets the device with the specified id
+      description: >-
+        Returns the device with the specified id, if that id is present.
+      operationId: getDevice
+      parameters:
+        - in: path
+          name: Id
+          required: true
+          description: Id of the device to retrieve
+          type: integer
+          format: int64
+      responses:
+        '200':
+          description: "OK, device is being returned"
+  /devices/{Id}/delete:
+    post:
+      tags:
+        - Device Management
+      summary: Deletes the device with the specified id
+      description: >-
+        Deletes the device with the specified id, if that id is present.
+      operationId: removeDevice
+      parameters:
+        - in: path
+          name: Id
+          required: true
+          description: Id of the device to be deleted
+          type: integer
+          format: int64
+      responses:
+        '200':
+          description: "OK, device has been deleted"
+        '404':
+          description: "Id not found"
+  

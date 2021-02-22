@@ -1,0 +1,21 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mDynamicInstanceDAOTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe instance DAO[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must be able to add an get an instance with a new id[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must not assign unique ids ignoring the ones provided by the parameter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return true on hasInstance for any present id[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return false on hasInstance for any id not present[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return instances with the correct id on getInstance[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return instance with the correct type on getInstanceOfType[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must remove instances that are present in the DAO[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must not change the data on removing invalid IDs[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must remove all instance on removeAll[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must have an empty list of matching results for newly added instances[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must keep the correct order of matching results posted[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must remove the matching results when the instance is removed[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must be able to change the state for arbitrary state transitions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must fail when setting state for invalid ids[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must fail to get docker ids from instances without any docker id[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return the correct docker ids for instances with a docker id[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must add events only to instances that have been registered[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must verify the presence of instance ids when a link is added[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must update old links in state 'Assigned' on adding a new assigned link.[0m[0m

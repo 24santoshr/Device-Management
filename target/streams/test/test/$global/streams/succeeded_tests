@@ -1,0 +1,10 @@
+#Successful Tests
+#Mon Feb 22 06:06:53 CET 2021
+de.upb.cs.swt.delphi.instanceregistry.daos.DatabaseInstanceDAOTest=1590463322209
+flix.deviceregistry.connection.ServerTest=1613970413454
+de.upb.cs.swt.delphi.instanceregistry.daos.DynamicAuthDAOTest=1590463319903
+de.upb.cs.swt.delphi.instanceregistry.daos.DynamicInstanceDAOTest=1590463317757
+de.upb.cs.swt.delphi.instanceregistry.daos.DatabaseDeviceDAOTest=1613957471029
+de.upb.cs.swt.delphi.instanceregistry.RequestHandlerTest=1590463319792
+flix.deviceregistry.daos.DatabaseDeviceDAOTest=1613970413850
+de.upb.cs.swt.delphi.instanceregistry.daos.DatabaseAuthDAOTest=1590463320567

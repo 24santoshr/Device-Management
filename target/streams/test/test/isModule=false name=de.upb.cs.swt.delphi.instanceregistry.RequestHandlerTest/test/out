@@ -1,0 +1,28 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mRequestHandlerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe RequestHandler[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must assign new IDs to instances regardless of their actual id[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must ignore the dockerId and instanceState on registration[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must store name, host, port and type of the registering instance[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must validate preconditions on deregister[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must successfully deregister an instance that meets the required preconditions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must validate the id before applying a matching result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must change the instance state when matching results are applied[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must not change the instance state on invalid state transitions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must validate preconditions on report operations[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must change the state on reportStart[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must change states only for valid state transitions on reportStop[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must change the state on reportFailure[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must validate preconditions on handlePause[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must validate preconditions on handleResume[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must validate preconditions on handleStop[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must validate preconditions on handleStart[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must not change the state of the instance on handleStart[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must validate preconditions on handleDeleteContainer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must remove instances on handleDeleteContainer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must not add two default ES instances on initializing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must validate preconditions before adding a label[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must validate preconditions before creating a link[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must validate preconditions before assigning new dependencies[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must not match to any instance if no instance of requested type is present[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must rank assigned links higher than shared labels in matching[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must match to instance with most consecutive positive matching results in fallback matching[0m[0m

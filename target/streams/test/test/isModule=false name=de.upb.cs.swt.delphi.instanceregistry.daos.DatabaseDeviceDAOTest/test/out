@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mDatabaseDeviceDAOTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe Auth Dao[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must be able to add a device with deviceName[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return user with correct id[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return all user[0m[0m
