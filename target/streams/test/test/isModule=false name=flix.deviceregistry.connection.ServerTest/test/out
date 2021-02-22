@@ -1,0 +1,12 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mServerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe Server[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should successfully create device when everything is valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should successfully update device when everything is valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not create device if request is invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not update device when method is Invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should successfully remove device when everything is valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not remove device if request is invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should successfully get device if device exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not get device if request is invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should successfully get all devices[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not get all device if request is invalid[0m[0m

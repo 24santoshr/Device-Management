@@ -1,0 +1,4 @@
+#Successful Tests
+#Mon Feb 22 22:17:20 CET 2021
+flix.deviceregistry.connection.ServerTest=1614028640122
+flix.deviceregistry.daos.DatabaseDeviceDAOTest=1614028640518

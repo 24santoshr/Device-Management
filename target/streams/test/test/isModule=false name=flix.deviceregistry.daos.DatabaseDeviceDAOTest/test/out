@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mDatabaseDeviceDAOTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe Device Dao[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must be able to add a device[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return device with correct id[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return all device[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must be able to update a device[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must delete device for given id[0m[0m
